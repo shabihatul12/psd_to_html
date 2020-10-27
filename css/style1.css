@@ -1,0 +1,237 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Titallium Web', sans-serif;
+	font-size: 1rem;
+}
+/* reusable components */
+.row{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+section{
+	padding: 100px;
+	
+}
+/* header section */
+header{
+	background:linear-gradient(rgba(135,80,156,0.9),rgba(135,80,156,0.9)), url(../img/service-bg.jpg);
+	background-repeat: no-repeat;
+	opacity: 0.5
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 85vh;
+}
+html{
+	scroll-behavior: smooth;
+}
+.logo{
+	height: 35px;
+	width: auto;
+	margin-top: 35px;
+	float: left;
+}
+ul li{
+	list-style-type: none;
+}
+h1{
+	font-size: 42px;
+	color: #fff;
+}
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+	height: 0;
+	overflow: hidden;
+}
+/* main_nav */
+.main_nav{
+	float: right;
+	margin-top:40px;
+}
+.main_nav li{
+	display: inline-block;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+.main_nav li:first-child{
+	margin-left: 0;
+}
+
+.main_nav li a:link,
+.main_nav li a:visited{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: rgba(109,58,123,0);
+	padding: 3px 16px;
+	border-radius: 4px;
+	display: inline-block;
+	font-size: 16px;
+	transition: .3s;
+
+}
+.main_nav li:hover a:link,
+.main_nav li:hover a:visited{
+	background-color: #643a79;
+}
+.active{
+	background-color:#643a79;
+
+}
+.hero-text-box{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.btn{
+	background: #333;
+	border-bottom: 3px solid #000;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 12px 16px;
+	border-radius: 3px;
+	display: inline-block;
+	margin-top: 45px;
+
+}
+.btn-hero{
+	background: #eb7d4b;
+}
+
+
+.services-section{
+	color: #fff;
+	text-align: center;
+	background:linear-gradient(rgba(23,194,164,0.9),rgba(23,194,164,0.9)), url(../img/service-bg.jpg);
+	opacity: 0.9;
+	
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.services-section h2:after{
+	background-color: #14a58c;
+}
+h2{
+	font-size: 40px;
+	font-weight: 500px;
+	text-transform: uppercase;
+	letter-spacing: .3rem;
+	margin-bottom: 30px;
+	color: #fff;
+}
+h2:after{
+	content: "";
+	display: block;
+	height: 4px;
+	background-color: white;
+	width: 85px;
+	margin-top: 2rem;
+	margin: auto;
+
+}
+h3{
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #fff;
+}
+
+.box {
+	padding: 1%;
+}
+.dec{
+	font-size: 18px;
+	width: 60%;
+	margin-left: 25%;
+	line-height: 30px;
+}
+.services-icon{
+	height: 126px;
+	margin-top: 45px;
+	margin-bottom: 35px;
+}
+
+
+.team-section{
+	background-color: #e7f1f8;
+	text-align: center;
+}
+.team-section h2{
+	color: #99a3b2;
+	text-align: center;
+}
+.team-section h2:after{
+	background-color: #c8d9e5;
+}
+.team-member{
+	margin-top: 45px;
+	margin-bottom: 35px;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+.team-section h3{
+	color: #bbc3cb;
+	font-weight: 24px;
+}
+.team-section h5{
+	margin-bottom: 24px;
+	color: #9cd9f0;
+	font-weight: 16px;
+}
+.social-link{
+	margin-top: 45px;
+
+}
+.social-link ul li{
+	display: inline-block;
+}
+.social-link ul li a{
+	color: #fff;
+}
+.social-link ul li a:link i::before{
+	
+	display: inline-block;
+	background-color: #bdd1df;
+	padding: 10px;
+	border-radius: 50px;
+
+	font-size: 26px;
+	height: 20px;
+	width: 20px;
+}
+.social-link ul li a:hover i::before{
+	background-color: #3939;
+	transform: rotate(360deg);
+	transition: .5s;
+}
+.skill{
+	background:linear-gradient(#ffffffdc, #ffffffdc), url("../img/skill-bg.jpg") center bottom no-repeat fixed;
+}
+.progress-wrapper{
+	text-align: center;
+}
+
+svg .web-design circle{
+	
+	stroke:red;
+	stroke-width: 5;
+}
+.progress-wrapper h3{
+	text-transform: uppercase;
+}
+
+
+
+
+
